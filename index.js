@@ -12,6 +12,9 @@ db.once('open', () => console.log('Connected to DB'))
 const gbancheckRouter = require('./Routes/check')
 app.use('/gban', gbancheckRouter)
 
+const tokenEdit = require('./Routes/token')
+app.use('/token', tokenEdit)
+
 app.get('/SOME1HING', (req, res) => {
     res.json({"SOME1HING": "github.com/SOME-1HING"})
 })
