@@ -10,7 +10,7 @@ const token = () => {
 };
 
 
-router.put('/tokengen', getToken, async (req, res) => {
+router.get('/tokengen', getToken, async (req, res) => {
 	if (req.query.TOKEN != null) {
 		can_scan = res.check.can_scan
 		if (!can_scan) {
@@ -32,7 +32,7 @@ router.put('/tokengen', getToken, async (req, res) => {
 	}
 })
 
-router.delete('/revoke/:id', getTokenPar, getToken, async (req, res) => {
+router.get('/revoke/:id', getTokenPar, getToken, async (req, res) => {
     if (req.query.TOKEN != null) {
         can_scan = res.check.can_scan
         if (!can_scan) {

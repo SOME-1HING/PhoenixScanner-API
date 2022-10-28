@@ -58,7 +58,7 @@ router.put('/scan', getGbanUserToken, async (req, res) => {
 	}
   })
   
-router.delete('/revert/:id', getGbanUserToken, async (req, res) => {
+router.get('/revert/:id', getGbanUserToken, async (req, res) => {
 	if (req.query.TOKEN != null) {
 		let can_scan = res.ans.token.can_scan
 		if (!can_scan) {
