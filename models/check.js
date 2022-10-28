@@ -16,4 +16,4 @@ const checkGban = new mongoose.Schema({
 },
 { collection : 'Scanner.guser' })
 
-module.exports = mongoose.model('Subscriber', checkGban, "Scanner.guser")
+module.exports = mongoose.model('Gbanusers', checkGban, "Scanner.guser")
