@@ -8,7 +8,10 @@
   <a href="https://www.javascript.com/"> <img src="https://img.shields.io/badge/Made%20With-JavaSript-yellow?style=for-the-badge&logo=python" alt="JavaScript" /> </a>
   <a href="https://github.com/SOME-1HING/PhoenixScanner-API"> <img src="https://img.shields.io/badge/Maintained-Yes-lightgrey?style=for-the-badge" alt="Maintenance" /> </a>
 </p>
-<img align="center" src="https://img.shields.io/uptimerobot/ratio/m792952202-4cb5c2377c9817fa47a6d85d?style=for-the-badge" alt="UPTIME" />
+
+<p align="center">
+    <img src="https://img.shields.io/uptimerobot/ratio/m792952202-4cb5c2377c9817fa47a6d85d?style=for-the-badge" alt="UPTIME" />
+</p>
 
 <h2 align="center">
     ──「 SUPPORT 」──
