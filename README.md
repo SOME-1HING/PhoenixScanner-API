@@ -8,8 +8,7 @@
   <a href="https://www.javascript.com/"> <img src="https://img.shields.io/badge/Made%20With-JavaSript-yellow?style=for-the-badge&logo=python" alt="JavaScript" /> </a>
   <a href="https://github.com/SOME-1HING/PhoenixScanner-API"> <img src="https://img.shields.io/badge/Maintained-Yes-lightgrey?style=for-the-badge" alt="Maintenance" /> </a>
 </p>
-
-[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/it08.svg)](https://betteruptime.com/?utm_source=status_badge)
+<img align="center" src="https://img.shields.io/uptimerobot/ratio/m792952202-4cb5c2377c9817fa47a6d85d?style=for-the-badge" alt="UPTIME" />
 
 <h2 align="center">
     ──「 SUPPORT 」──
