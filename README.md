@@ -22,7 +22,7 @@
 <a href="https://t.me/SOME1_HING"> <img src="https://img.shields.io/badge/SOME1HING-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 </p>
 
-<h2>
+<h2 align="center">
     ──「 CREDIT 」──
 </h2>
 
