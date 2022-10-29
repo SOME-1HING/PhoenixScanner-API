@@ -43,6 +43,9 @@ router.get('/revoke/:id', getTokenPar, getToken, async (req, res) => {
 		await res.tok.remove()
 		res.status(201).json({ message: 'Deleted' })
 	} catch (err) {
+		if (err.message =="Cannot read properties of null (reading 'remove')") {
+			return res.status(400).json({ message: "Cannot remove a token that is not in db." })
+		}
 		res.status(500).json({ message: err.message })
 	}
 })

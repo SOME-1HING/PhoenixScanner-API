@@ -52,7 +52,7 @@ router.put('/scan', getGbanUserToken, async (req, res) => {
 	})
 	try {
 	  const newGban = await user.save()
-	  res.status(201).json(newGban)
+	  res.status(201).json({ message: "Done" })
 	} catch (err) {
 	  res.status(400).json({ message: err.message })
 	}
