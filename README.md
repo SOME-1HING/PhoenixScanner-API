@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 TPhoenixScanner-API 」──
+    ──「 PhoenixScanner-API 」──
 </h2>
 
 <p align="center">
